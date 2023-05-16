@@ -63,4 +63,5 @@ span{
     font-size: 26px;
     font-weight: 800;
     color: lightgreen;
+    visibility: hidden;
 }
