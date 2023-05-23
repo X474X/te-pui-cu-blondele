@@ -11,6 +11,10 @@ body{
     height: 100vh;
     overflow: hidden;
     background-color: #1a1010;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -39,7 +43,7 @@ div{
 
 .intrebare{
     font-size: 18px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 input{
@@ -49,10 +53,12 @@ input{
     transform: translate(-45%, 150%);
     padding: 20px;
     font-size: 18px;
-    border: 2px solid white;
-    color: aliceblue;
-    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    font-weight: 600;
+    background-color: white;
     border-radius: 10px;
+    visibility: hidden;
 }
 
 span{
@@ -62,6 +68,5 @@ span{
     transform: translate(-50%, 500%);
     font-size: 26px;
     font-weight: 800;
-    color: lightgreen;
     visibility: hidden;
 }
