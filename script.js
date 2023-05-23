@@ -70,7 +70,7 @@ window.addEventListener("keypress", (event) => {
         input.value = "";
       }, 1000);
     } else {
-      validare.innerHTML = "GRESIT";
+      validare.innerHTML = "ESTI BLONDA";
       validare.style.color = "red";
       validare.style.visibility = "visible";
       setTimeout(() => {
